@@ -247,7 +247,7 @@
 
     <section class="contact-form" id="contact">
         <h2 class="contact-me">Contact <span>Me</span></h2>
-        <form action="#">
+        <form action="/" method="POST" data-netlify="true" class="contact-form">
 
             <div class="input-box">
                 <input type="text" placeholder="Full Name">
@@ -260,6 +260,7 @@
             </div>
 
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div data-netlify-recaptcha="true"></div>
             <input type="submit" value="Send Message" class="btn-1">
         </form>
     </section>
